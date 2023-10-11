@@ -1,0 +1,10 @@
+class Trip(BaseModel):
+    trip_id: int
+    driver_id: int
+    start_location: Location
+    end_location: Location
+    departure_datetime: str
+    available_seats: int
+    seat_price: float
+    status: str
+    current_location: Location
