@@ -15,3 +15,9 @@ To get started with the Carpooling API, you need to ..............;
 
 ## Endpoints
 
+The Carpooling API provides the following endpoints:
+
+- /drivers: Manage driver information and rides.
+- /passengers: Manage passenger information and reservations.
+- /reservations: Create, list, and manage ride reservations.
+- /trips: Create, list, and manage trip details.
