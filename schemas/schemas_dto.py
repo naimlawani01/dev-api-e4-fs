@@ -6,14 +6,25 @@ class Location(BaseModel):
     longitude: float
 
 class Driver(BaseModel):
-    driver_id: int
-    first_name: str
+    id: str 
+    first_name: str 
     last_name: str
-    phone_number: str
-    email: str
-    profile_picture: str
-    average_rating: float
-    current_location: Location
+    phone_number: str = "0000000000"
+    email: str = "carpooling@gmail.com"
+    profile_picture: str = "undifined"
+    average_rating: float = 4.2
+    current_location: str = "Paris"
+    user_id: str = "ftpz"
+
+class Driver_POST(BaseModel):
+    first_name: str 
+    last_name: str
+    phone_number: str = "0000000000"
+    email: str = "carpooling@gmail.com"
+    profile_picture: str = "undifined"
+    average_rating: float = 4.2
+    current_location: str = "Paris"
+    password: str
 
 class Trip(BaseModel):
     trip_id: int
@@ -27,12 +38,22 @@ class Trip(BaseModel):
     current_location: Location
 
 class Passenger(BaseModel):
-    passenger_id: int
+    passenger_id: str
+    first_name: str
+    last_name: str
+    phone_number: str = "0000000000"
+    email: str = "carpooling@gmail.com"
+    profile_picture: str = "undifined"
+    user_id: str = "ftpz"
+
+class Passenger_POST(BaseModel):
     first_name: str
     last_name: str
     phone_number: str
     email: str
     profile_picture: str
+    user_id: str
+    password: str
 
 class Reservation(BaseModel):
     reservation_id: int
@@ -47,3 +68,7 @@ class Payment(BaseModel):
     amount: float
     payment_datetime: str
     payment_method: str
+
+class User(BaseModel):
+    email: str
+    password: str  
