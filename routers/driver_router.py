@@ -20,8 +20,10 @@ drivers  = [
 ]
 @router.get("/", response_model=List[Driver])
 def get_drivers():
-    # Logique pour obtenir la liste des conducteurs
-    return drivers
+    """ List all the Sessions from a Training Center"""
+    fireBaseobject = db.child("driver").get().val()
+    resultArray = [value for value in fireBaseobject.values()]
+    return resultArray
 
 @router.get("/{driver_id}", response_model=Driver)
 def get_driver_by_id(driver_id: str):
