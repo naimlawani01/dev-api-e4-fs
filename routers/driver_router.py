@@ -18,12 +18,14 @@ drivers  = [
     Driver(id= "1", first_name= "Nick", last_name= "Pizza", phone_number= "+33953532784", email= "test@gmail.com", profile_picture= "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&q=80&w=1931&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", average_rating= 4.4),
     Driver(id= "2", first_name= "Zuma", last_name= "Dembe", phone_number= "+3395353278", email= "new@gmail.com", profile_picture= "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&q=80&w=1931&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", average_rating= 4.4)
 ]
-@router.get("/", response_model=List[Driver])
+@router.get("/")
 def get_drivers():
     """ List all the Sessions from a Training Center"""
     fireBaseobject = db.child("driver").get().val()
-    resultArray = [value for value in fireBaseobject.values()]
-    return resultArray
+    if fireBaseobject is not None:
+        resultArray = [value for value in fireBaseobject.values()]
+        return resultArray
+    return []
 
 @router.get("/{driver_id}", response_model=Driver)
 def get_driver_by_id(driver_id: str):
@@ -32,7 +34,7 @@ def get_driver_by_id(driver_id: str):
     # resultArray = [value for value in fireBaseobject.values()]
     return fireBaseobject
 
-@router.post("/")
+@router.post("/", status_code=201)
 def create_driver(driver_data: Driver_POST):
     
     generated_id = uuid.uuid4()
@@ -43,10 +45,12 @@ def create_driver(driver_data: Driver_POST):
             email = driver_data.email,
             password = driver_data.password
         )
-        new_driver = Driver(id=str(generated_id), first_name=driver_data.first_name, last_name=driver_data.last_name, user_id= str(user.uid))
-        db.child("driver").push(new_driver.model_dump())
+        new_driver = Driver(id=str(generated_id), first_name=driver_data.first_name, last_name=driver_data.last_name, user_id= str(user.uid), email= driver_data.email)
+        response = db.child("driver").push(new_driver.model_dump())
         return {
-        "message": f"Nouvel utilisateur créé avec id : {user.uid}"
+        "message": f"Nouvel utilisateur créé avec id : {user.uid}",
+        "id":  response['name']
+
         }
     except auth.EmailAlreadyExistsError:
         raise HTTPException(

@@ -1,9 +1,9 @@
 firebaseConfig = {
-    "apiKey": "AIzaSyBXgaQ-rJHrhoKswtYulBTdg_I9lGfDWGE",
-    "authDomain": "carpooling-cd0af.firebaseapp.com",
-    "databaseURL": "https://carpooling-cd0af-default-rtdb.europe-west1.firebasedatabase.app",
-    "projectId": "carpooling-cd0af",
-    "storageBucket": "carpooling-cd0af.appspot.com",
-    "messagingSenderId": "761815739411",
-    "appId": "1:761815739411:web:bd78609880567f6fa4e3e6"
+  "apiKey": "AIzaSyAz9LBQ7o-L9AI1zqFl2YnKhX9x7iy5x1c",
+  "authDomain": "carpooling-765fa.firebaseapp.com",
+  "projectId": "carpooling-765fa",
+  "storageBucket": "carpooling-765fa.appspot.com",
+  "messagingSenderId": "468935410253",
+  "appId": "1:468935410253:web:368e493648c35ed57b5204",
+  "databaseURL" : "https://carpooling-765fa-default-rtdb.europe-west1.firebasedatabase.app/"
 }

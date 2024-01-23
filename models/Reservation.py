@@ -1,7 +1,5 @@
-from sqlalchemy import TIMESTAMP, Boolean, Column, Integer, String, Numeric
-from .base import Base
 
-class Reservation(Base):
+class Reservation():
     reservation_id: int
     trip_id: int
     passenger_id: int

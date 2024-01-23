@@ -1,7 +1,4 @@
-from sqlalchemy import TIMESTAMP, Boolean, Column, Integer, String, Numeric
-from .base import Base
-
-class Driver(Base):
+class Driver():
     driver_id: int
     first_name: str
     last_name: str
@@ -9,4 +6,3 @@ class Driver(Base):
     email: str
     profile_picture: str
     average_rating: float
-    current_location: Location

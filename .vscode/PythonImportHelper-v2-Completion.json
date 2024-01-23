@@ -1,0 +1,1348 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "firebase_admin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "pyrebase",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyrebase",
+        "description": "pyrebase",
+        "detail": "pyrebase",
+        "documentation": {}
+    },
+    {
+        "label": "firebaseConfig",
+        "importPath": "configs.firebase_config_example",
+        "description": "configs.firebase_config_example",
+        "isExtraImport": true,
+        "detail": "configs.firebase_config_example",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv_values",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "dotenv_values",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security.oauth2",
+        "description": "fastapi.security.oauth2",
+        "isExtraImport": true,
+        "detail": "fastapi.security.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Driver_POST",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Passenger",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Passenger_POST",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Reservation",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Trip",
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "isExtraImport": true,
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "routers.auth_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "isExtraImport": true,
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "isExtraImport": true,
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "isExtraImport": true,
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "RedirectResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "stripe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stripe",
+        "description": "stripe",
+        "detail": "stripe",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "models.Driver",
+        "description": "models.Driver",
+        "isExtraImport": true,
+        "detail": "models.Driver",
+        "documentation": {}
+    },
+    {
+        "label": "auth_headers",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "isExtraImport": true,
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "api_description",
+        "importPath": "docs.description",
+        "description": "docs.description",
+        "isExtraImport": true,
+        "detail": "docs.description",
+        "documentation": {}
+    },
+    {
+        "label": "tags_metadata",
+        "importPath": "docs.tags",
+        "description": "docs.tags",
+        "isExtraImport": true,
+        "detail": "docs.tags",
+        "documentation": {}
+    },
+    {
+        "label": "routers.driver_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "routers.passenger_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "routers.reservation_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "routers.trip_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "routers.stripe_router",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'delete_index': ('name', ),\n        'export_documents': ('name', 'collection_ids', 'output_uri_prefix', ),\n        'get_database': ('name', ),\n        'get_field': ('name', ),\n        'get_index': ('name', ),",
+        "detail": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": ".venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "description": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": ".venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firebaseConfig",
+        "kind": 5,
+        "importPath": "configs.firebase_config_example",
+        "description": "configs.firebase_config_example",
+        "peekOfCode": "firebaseConfig = {\n  \"apiKey\": \"AIzaSyAz9LBQ7o-L9AI1zqFl2YnKhX9x7iy5x1c\",\n  \"authDomain\": \"carpooling-765fa.firebaseapp.com\",\n  \"projectId\": \"carpooling-765fa\",\n  \"storageBucket\": \"carpooling-765fa.appspot.com\",\n  \"messagingSenderId\": \"468935410253\",\n  \"appId\": \"1:468935410253:web:368e493648c35ed57b5204\",\n  \"databaseURL\" : \"https://carpooling-765fa-default-rtdb.europe-west1.firebasedatabase.app/\"\n}",
+        "detail": "configs.firebase_config_example",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "peekOfCode": "config = dotenv_values(\".env\")\nif not firebase_admin._apps:\n    cred = credentials.Certificate(\"configs/carpooling-cd0af-firebase-adminsdk-b6sgm-8ed1aa6f19.json\")\n    firebase_admin.initialize_app(cred)\nfirebase = pyrebase.initialize_app(firebaseConfig)\ndb = firebase.database()\nauthSession = firebase.auth()",
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "firebase",
+        "kind": 5,
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "peekOfCode": "firebase = pyrebase.initialize_app(firebaseConfig)\ndb = firebase.database()\nauthSession = firebase.auth()",
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "peekOfCode": "db = firebase.database()\nauthSession = firebase.auth()",
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "authSession",
+        "kind": 5,
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "peekOfCode": "authSession = firebase.auth()",
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "kind": 6,
+        "importPath": "models.Driver",
+        "description": "models.Driver",
+        "peekOfCode": "class Driver():\n    driver_id: int\n    first_name: str\n    last_name: str\n    phone_number: str\n    email: str\n    profile_picture: str\n    average_rating: float",
+        "detail": "models.Driver",
+        "documentation": {}
+    },
+    {
+        "label": "Passenger",
+        "kind": 6,
+        "importPath": "models.Passenger",
+        "description": "models.Passenger",
+        "peekOfCode": "class Passenger():\n    passenger_id: int\n    first_name: str\n    last_name: str\n    phone_number: str\n    email: str\n    profile_picture: str",
+        "detail": "models.Passenger",
+        "documentation": {}
+    },
+    {
+        "label": "Reservation",
+        "kind": 6,
+        "importPath": "models.Reservation",
+        "description": "models.Reservation",
+        "peekOfCode": "class Reservation():\n    reservation_id: int\n    trip_id: int\n    passenger_id: int\n    reservation_datetime: str\n    status: str",
+        "detail": "models.Reservation",
+        "documentation": {}
+    },
+    {
+        "label": "Trip",
+        "kind": 6,
+        "importPath": "models.Trip",
+        "description": "models.Trip",
+        "peekOfCode": "class Trip(BaseModel):\n    trip_id: int\n    driver_id: int\n    start_location: Location\n    end_location: Location\n    departure_datetime: str\n    available_seats: int\n    seat_price: float\n    status: str\n    current_location: Location",
+        "detail": "models.Trip",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "peekOfCode": "def get_current_user(provided_token: str = Depends(oauth2_scheme)):\n    decoded_token = auth.verify_id_token(provided_token)\n    decoded_token['idToken']=provided_token \n    return decoded_token\n#Protect route to get personal data\n@router.get('/me')\ndef secure_endoint(userData: int = Depends(get_current_user)):\n    return userData",
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "secure_endoint",
+        "kind": 2,
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "peekOfCode": "def secure_endoint(userData: int = Depends(get_current_user)):\n    return userData",
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "peekOfCode": "router = APIRouter(\n      tags=[\"Auth\"],\n      prefix='/auth'\n)\n  #create new user\n@router.post('/signup', status_code=201)\nasync def create_an_account(user_body: User):\n    try:\n        user = auth.create_user(\n            email = user_body.email,",
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "routers.auth_router",
+        "description": "routers.auth_router",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"api/auth/login\")\ndef get_current_user(provided_token: str = Depends(oauth2_scheme)):\n    decoded_token = auth.verify_id_token(provided_token)\n    decoded_token['idToken']=provided_token \n    return decoded_token\n#Protect route to get personal data\n@router.get('/me')\ndef secure_endoint(userData: int = Depends(get_current_user)):\n    return userData",
+        "detail": "routers.auth_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_drivers",
+        "kind": 2,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "def get_drivers():\n    \"\"\" List all the Sessions from a Training Center\"\"\"\n    fireBaseobject = db.child(\"driver\").get().val()\n    if fireBaseobject is not None:\n        resultArray = [value for value in fireBaseobject.values()]\n        return resultArray\n    return []\n@router.get(\"/{driver_id}\", response_model=Driver)\ndef get_driver_by_id(driver_id: str):\n    # Logique pour obtenir un conducteur par ID",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_driver_by_id",
+        "kind": 2,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "def get_driver_by_id(driver_id: str):\n    # Logique pour obtenir un conducteur par ID\n    fireBaseobject = db.child(\"driver\").child(driver_id).get().val()\n    # resultArray = [value for value in fireBaseobject.values()]\n    return fireBaseobject\n@router.post(\"/\", status_code=201)\ndef create_driver(driver_data: Driver_POST):\n    generated_id = uuid.uuid4()\n    # user = User(email = driver_data.email, password = driver_data.password)\n    # new_user_ref  = db.child(\"user\").push(user.model_dump())",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "create_driver",
+        "kind": 2,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "def create_driver(driver_data: Driver_POST):\n    generated_id = uuid.uuid4()\n    # user = User(email = driver_data.email, password = driver_data.password)\n    # new_user_ref  = db.child(\"user\").push(user.model_dump())\n    try:\n        user = auth.create_user(\n            email = driver_data.email,\n            password = driver_data.password\n        )\n        new_driver = Driver(id=str(generated_id), first_name=driver_data.first_name, last_name=driver_data.last_name, user_id= str(user.uid), email= driver_data.email)",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "update_driver",
+        "kind": 2,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "def update_driver(driver_id: str, modifiedDriver: Driver_POST, userData: int = Depends(get_current_user)):\n    fireBaseobject = db.child(\"driver\").child(driver_id).get(userData['idToken']).val()\n    if fireBaseobject is not None:\n        if fireBaseobject['user_id'] == userData['user_id']:\n            updatedDriver = Driver(id=driver_id, **modifiedDriver.model_dump())\n            return db.child(\"driver\").child(driver_id).update(updatedDriver.model_dump(), userData['idToken'] )\n        return {\n            \"message\": \"Vous n'avez pas le droit de modifier ce driver\"\n        }\n    raise HTTPException(status_code= 404, detail=\"Driver  not found\")",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_driver",
+        "kind": 2,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "def delete_driver(driver_id: str, userData: int = Depends(get_current_user)):\n    try:\n        fireBaseobject = db.child(\"driver\").child(driver_id).get(userData['idToken']).val()\n    except:\n        raise HTTPException(\n            status_code=403, detail=\"Accès interdit\"\n        )\n    if fireBaseobject is not None:\n        if fireBaseobject['user_id'] == userData['user_id']:\n            return db.child(\"driver\").child(driver_id).remove(userData['idToken'])",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.driver_router",
+        "description": "routers.driver_router",
+        "peekOfCode": "router = APIRouter(\n    prefix='/driver',\n    tags=[\"Drivers\"]\n)\ndrivers  = [\n    Driver(id= \"1\", first_name= \"Nick\", last_name= \"Pizza\", phone_number= \"+33953532784\", email= \"test@gmail.com\", profile_picture= \"https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&q=80&w=1931&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\", average_rating= 4.4),\n    Driver(id= \"2\", first_name= \"Zuma\", last_name= \"Dembe\", phone_number= \"+3395353278\", email= \"new@gmail.com\", profile_picture= \"https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&q=80&w=1931&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\", average_rating= 4.4)\n]\n@router.get(\"/\")\ndef get_drivers():",
+        "detail": "routers.driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_passengers",
+        "kind": 2,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "def get_passengers():\n    # Logique pour obtenir la liste des passagers\n    pass\n@router.get(\"/{passenger_id}\", status_code=200)\ndef get_passenger_by_id(passenger_id: int):\n    # Logique pour obtenir un conducteur par ID\n    fireBaseobject = db.child(\"passenger\").child(passenger_id).get().val()\n    # resultArray = [value for value in fireBaseobject.values()]\n    return fireBaseobject\n@router.post(\"/\", status_code=201)",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_passenger_by_id",
+        "kind": 2,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "def get_passenger_by_id(passenger_id: int):\n    # Logique pour obtenir un conducteur par ID\n    fireBaseobject = db.child(\"passenger\").child(passenger_id).get().val()\n    # resultArray = [value for value in fireBaseobject.values()]\n    return fireBaseobject\n@router.post(\"/\", status_code=201)\ndef create_passenger(passenger_data: Passenger_POST):\n    generated_id = uuid.uuid4()\n    try:\n        user = auth.create_user(",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "create_passenger",
+        "kind": 2,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "def create_passenger(passenger_data: Passenger_POST):\n    generated_id = uuid.uuid4()\n    try:\n        user = auth.create_user(\n            email = passenger_data.email,\n            password = passenger_data.password\n        )\n        new_passager = Passenger(passenger_id=str(generated_id), first_name=passenger_data.first_name, last_name=passenger_data.last_name, user_id= str(user.uid))\n        db.child(\"passenger\").push(new_passager.model_dump())\n        return {",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "update_passenger",
+        "kind": 2,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "def update_passenger(passenger_id: int, passenger: Passenger):\n    # Logique pour mettre à jour un passager\n    pass\n@router.delete(\"/{passenger_id}\", status_code=204)\ndef delete_passenger(passenger_id: str, userData: int = Depends(get_current_user)):\n    try:\n        fireBaseobject = db.child(\"passenger\").child(passenger_id).get(userData['idToken']).val()\n    except:\n        raise HTTPException(\n            status_code=403, detail=\"Accès interdit\"",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_passenger",
+        "kind": 2,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "def delete_passenger(passenger_id: str, userData: int = Depends(get_current_user)):\n    try:\n        fireBaseobject = db.child(\"passenger\").child(passenger_id).get(userData['idToken']).val()\n    except:\n        raise HTTPException(\n            status_code=403, detail=\"Accès interdit\"\n        )\n    if fireBaseobject is not None:\n        if fireBaseobject['user_id'] == userData['user_id']:\n            return db.child(\"passenger\").child(passenger_id).remove(userData['idToken'])",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.passenger_router",
+        "description": "routers.passenger_router",
+        "peekOfCode": "router = APIRouter(\n    prefix='/passengers',\n    tags=[\"Passengers\"]\n)\n@router.get(\"/\", response_model=List[Passenger])\ndef get_passengers():\n    # Logique pour obtenir la liste des passagers\n    pass\n@router.get(\"/{passenger_id}\", status_code=200)\ndef get_passenger_by_id(passenger_id: int):",
+        "detail": "routers.passenger_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservations",
+        "kind": 2,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "def get_reservations():\n    # Logique pour obtenir la liste des réservations\n    pass\n@router.get(\"/{reservation_id}\", response_model=Reservation)\ndef get_reservation_by_id(reservation_id: int):\n    # Logique pour obtenir une réservation par ID\n    pass\n@router.post(\"/\", response_model=Reservation)\ndef create_reservation(reservation: Reservation):\n    # Logique pour créer une réservation",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_reservation_by_id",
+        "kind": 2,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "def get_reservation_by_id(reservation_id: int):\n    # Logique pour obtenir une réservation par ID\n    pass\n@router.post(\"/\", response_model=Reservation)\ndef create_reservation(reservation: Reservation):\n    # Logique pour créer une réservation\n    pass\n@router.put(\"/{reservation_id}\", response_model=Reservation)\ndef update_reservation(reservation_id: int, reservation: Reservation):\n    # Logique pour mettre à jour une réservation",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "create_reservation",
+        "kind": 2,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "def create_reservation(reservation: Reservation):\n    # Logique pour créer une réservation\n    pass\n@router.put(\"/{reservation_id}\", response_model=Reservation)\ndef update_reservation(reservation_id: int, reservation: Reservation):\n    # Logique pour mettre à jour une réservation\n    pass\n@router.delete(\"/{reservation_id}\", response_model=dict)\ndef delete_reservation(reservation_id: int):\n    # Logique pour supprimer une réservation",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "update_reservation",
+        "kind": 2,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "def update_reservation(reservation_id: int, reservation: Reservation):\n    # Logique pour mettre à jour une réservation\n    pass\n@router.delete(\"/{reservation_id}\", response_model=dict)\ndef delete_reservation(reservation_id: int):\n    # Logique pour supprimer une réservation\n    pass",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_reservation",
+        "kind": 2,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "def delete_reservation(reservation_id: int):\n    # Logique pour supprimer une réservation\n    pass",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.reservation_router",
+        "description": "routers.reservation_router",
+        "peekOfCode": "router = APIRouter(\n    prefix='/reservations',\n    tags=[\"Reservations\"]\n)\n@router.get(\"/\", response_model=List[Reservation])\ndef get_reservations():\n    # Logique pour obtenir la liste des réservations\n    pass\n@router.get(\"/{reservation_id}\", response_model=Reservation)\ndef get_reservation_by_id(reservation_id: int):",
+        "detail": "routers.reservation_router",
+        "documentation": {}
+    },
+    {
+        "label": "increment_stripe",
+        "kind": 2,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "peekOfCode": "def increment_stripe(userId:str):\n    fireBase_user = auth.get_user(userId) # Identifiant firebase correspondant (uid)\n    stripe_data= db.child(\"users\").child(fireBase_user.uid).child(\"stripe\").get().val()\n    print(stripe_data.values())\n    item_id =stripe_data['item_id']\n    stripe.SubscriptionItem.create_usage_record(item_id, quantity=1)\n    return",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "peekOfCode": "router = APIRouter(\n      tags=[\"Stripe\"],\n      prefix='/stripe'\n)\n# This is your test secret API key.\nfrom dotenv import dotenv_values\nconfig = dotenv_values(\".env\")\nstripe.api_key = config['STRIPE_SK']\nYOUR_DOMAIN = 'http://localhost'\n@router.get('/checkout')",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "peekOfCode": "config = dotenv_values(\".env\")\nstripe.api_key = config['STRIPE_SK']\nYOUR_DOMAIN = 'http://localhost'\n@router.get('/checkout')\nasync def stripe_checkout():\n    try:\n        checkout_session = stripe.checkout.Session.create(\n            line_items=[\n                {\n                    # Provide the exact Price ID (for example, pr_1234) of the product you want to sell",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "stripe.api_key",
+        "kind": 5,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "peekOfCode": "stripe.api_key = config['STRIPE_SK']\nYOUR_DOMAIN = 'http://localhost'\n@router.get('/checkout')\nasync def stripe_checkout():\n    try:\n        checkout_session = stripe.checkout.Session.create(\n            line_items=[\n                {\n                    # Provide the exact Price ID (for example, pr_1234) of the product you want to sell\n                    'price': 'price_1O51yyGH31aD2trgA5DoQ6Fz',",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "YOUR_DOMAIN",
+        "kind": 5,
+        "importPath": "routers.stripe_router",
+        "description": "routers.stripe_router",
+        "peekOfCode": "YOUR_DOMAIN = 'http://localhost'\n@router.get('/checkout')\nasync def stripe_checkout():\n    try:\n        checkout_session = stripe.checkout.Session.create(\n            line_items=[\n                {\n                    # Provide the exact Price ID (for example, pr_1234) of the product you want to sell\n                    'price': 'price_1O51yyGH31aD2trgA5DoQ6Fz',\n                    'quantity':  14",
+        "detail": "routers.stripe_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_trips",
+        "kind": 2,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "def get_trips():\n    # Logique pour obtenir la liste des trajets\n    pass\n@router.get(\"/{trip_id}\", response_model=Trip)\ndef get_trip_by_id(trip_id: int):\n    # Logique pour obtenir un trajet par ID\n    pass\n@router.post(\"/\", response_model=Trip)\ndef create_trip(trip: Trip):\n    # Logique pour créer un trajet",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "get_trip_by_id",
+        "kind": 2,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "def get_trip_by_id(trip_id: int):\n    # Logique pour obtenir un trajet par ID\n    pass\n@router.post(\"/\", response_model=Trip)\ndef create_trip(trip: Trip):\n    # Logique pour créer un trajet\n    pass\n@router.put(\"/{trip_id}\", response_model=Trip)\ndef update_trip(trip_id: int, trip: Trip):\n    # Logique pour mettre à jour un trajet",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "create_trip",
+        "kind": 2,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "def create_trip(trip: Trip):\n    # Logique pour créer un trajet\n    pass\n@router.put(\"/{trip_id}\", response_model=Trip)\ndef update_trip(trip_id: int, trip: Trip):\n    # Logique pour mettre à jour un trajet\n    pass\n@router.delete(\"/{trip_id}\", response_model=dict)\ndef delete_trip(trip_id: int):\n    # Logique pour supprimer un trajet",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "update_trip",
+        "kind": 2,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "def update_trip(trip_id: int, trip: Trip):\n    # Logique pour mettre à jour un trajet\n    pass\n@router.delete(\"/{trip_id}\", response_model=dict)\ndef delete_trip(trip_id: int):\n    # Logique pour supprimer un trajet\n    pass",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_trip",
+        "kind": 2,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "def delete_trip(trip_id: int):\n    # Logique pour supprimer un trajet\n    pass",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.trip_router",
+        "description": "routers.trip_router",
+        "peekOfCode": "router = APIRouter(\n    prefix='/trips',\n    tags=[\"Trips\"]\n)\n@router.get(\"/\", response_model=List[Trip])\ndef get_trips():\n    # Logique pour obtenir la liste des trajets\n    pass\n@router.get(\"/{trip_id}\", response_model=Trip)\ndef get_trip_by_id(trip_id: int):",
+        "detail": "routers.trip_router",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Location(BaseModel):\n    latitude: float\n    longitude: float\nclass Driver(BaseModel):\n    id: str \n    first_name: str \n    last_name: str\n    phone_number: str = \"0000000000\"\n    email: str = \"carpooling@gmail.com\"\n    profile_picture: str = \"undifined\"",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Driver(BaseModel):\n    id: str \n    first_name: str \n    last_name: str\n    phone_number: str = \"0000000000\"\n    email: str = \"carpooling@gmail.com\"\n    profile_picture: str = \"undifined\"\n    average_rating: float = 4.2\n    current_location: str = \"Paris\"\n    user_id: str = \"ftpz\"",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Driver_POST",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Driver_POST(BaseModel):\n    first_name: str \n    last_name: str\n    phone_number: str = \"0000000000\"\n    email: str = \"carpooling@gmail.com\"\n    profile_picture: str = \"undifined\"\n    average_rating: float = 4.2\n    current_location: str = \"Paris\"\n    password: str\nclass Trip(BaseModel):",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Trip",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Trip(BaseModel):\n    trip_id: int\n    driver_id: int\n    start_location: Location\n    end_location: Location\n    departure_datetime: str\n    available_seats: int\n    seat_price: float\n    status: str\n    current_location: Location",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Passenger",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Passenger(BaseModel):\n    passenger_id: str\n    first_name: str\n    last_name: str\n    phone_number: str = \"0000000000\"\n    email: str = \"carpooling@gmail.com\"\n    profile_picture: str = \"undifined\"\n    user_id: str = \"ftpz\"\nclass Passenger_POST(BaseModel):\n    first_name: str",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Passenger_POST",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Passenger_POST(BaseModel):\n    first_name: str\n    last_name: str\n    phone_number: str\n    email: str\n    profile_picture: str\n    user_id: str\n    password: str\nclass Reservation(BaseModel):\n    reservation_id: int",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Reservation",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Reservation(BaseModel):\n    reservation_id: int\n    trip_id: int\n    passenger_id: int\n    reservation_datetime: str\n    status: str\nclass Payment(BaseModel):\n    payment_id: int\n    reservation_id: int\n    amount: float",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class Payment(BaseModel):\n    payment_id: int\n    reservation_id: int\n    amount: float\n    payment_datetime: str\n    payment_method: str\nclass User(BaseModel):\n    email: str\n    password: str",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "schemas.schemas_dto",
+        "description": "schemas.schemas_dto",
+        "peekOfCode": "class User(BaseModel):\n    email: str\n    password: str",
+        "detail": "schemas.schemas_dto",
+        "documentation": {}
+    },
+    {
+        "label": "auth_token",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def auth_token():\n    email = \"test.auth@gmail.com\"\n    password = \"password123\"\n    user = auth.create_user(\n        email=email,\n        password=password\n    )\n    token = authSession.sign_in_with_email_and_password(email=email, password=password)['idToken']\n    return token\n@pytest.fixture(scope=\"session\", autouse=True)",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def cleanup(request):\n    #Nettoyer le directory une fois fini\n    def remove_test_users():\n        users = auth.list_users().iterate_all()\n        for user in users:\n            if user.email.startswith(\"test\"):\n                auth.delete_user(user.uid)\n    request.addfinalizer(remove_test_users)\n@pytest.fixture\ndef client():",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def client():\n    return TestClient(app)\n@pytest.fixture\ndef auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "auth_headers",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_drivers",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",\n        \"password\": \"password123\"",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_driver_by_id",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    print(driver)\n    driver_id = driver.json()['id']",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_driver",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_create_driver(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.create@example.com\",\n        \"password\": \"password123\"\n    }\n    response = client.post(\"/api/driver\", json=driver_data)\n    print(auth_headers)\n    print(response.json()['id'])",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_driver",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_update_driver(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.update@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    auth_token = authSession.sign_in_with_email_and_password(email=driver_data['email'], password=driver_data['password'])['idToken']\n    auth_headers= {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "client =  TestClient(app)\ndef test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(\n    title=\"Carpooling API\",\n    description= api_description,\n    openapi_tags= tags_metadata\n)\n# Montez les routeurs sur l'application\napp.include_router(routers.driver_router.router, prefix=\"/api\")\napp.include_router(routers.passenger_router.router, prefix=\"/api\")\napp.include_router(routers.reservation_router.router, prefix=\"/api\")\napp.include_router(routers.trip_router.router, prefix=\"/api\")",
+        "detail": "main",
+        "documentation": {}
+    }
+]
