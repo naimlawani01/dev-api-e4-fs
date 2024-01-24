@@ -558,6 +558,14 @@
         "documentation": {}
     },
     {
+        "label": "authSession",
+        "importPath": "database.firebase",
+        "description": "database.firebase",
+        "isExtraImport": true,
+        "detail": "database.firebase",
+        "documentation": {}
+    },
+    {
         "label": "uuid",
         "kind": 6,
         "isExtraImport": true,
@@ -650,6 +658,38 @@
         "documentation": {}
     },
     {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "importPath": "main",
         "description": "main",
@@ -674,7 +714,39 @@
         "documentation": {}
     },
     {
+        "label": "Driver",
+        "importPath": "models.Driver",
+        "description": "models.Driver",
+        "isExtraImport": true,
+        "detail": "models.Driver",
+        "documentation": {}
+    },
+    {
         "label": "auth_headers",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "isExtraImport": true,
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "driver_id",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "isExtraImport": true,
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "auth_headers",
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "isExtraImport": true,
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "driver_id",
         "importPath": "tests.conftest",
         "description": "tests.conftest",
         "isExtraImport": true,
@@ -1260,7 +1332,7 @@
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def auth_token():\n    email = \"test.auth@gmail.com\"\n    password = \"password123\"\n    user = auth.create_user(\n        email=email,\n        password=password\n    )\n    token = authSession.sign_in_with_email_and_password(email=email, password=password)['idToken']\n    return token\n@pytest.fixture(scope=\"session\", autouse=True)",
+        "peekOfCode": "def auth_token():\n    email = \"test.auth\"+ str(uuid.uuid4()) + \"@gmail.com\"\n    password = \"password123\"\n    user = auth.create_user(\n        email=email,\n        password=password\n    )\n    token = authSession.sign_in_with_email_and_password(email=email, password=password)['idToken']\n    return token\n@pytest.fixture(scope=\"session\", autouse=True)",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -1278,7 +1350,7 @@
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def client():\n    return TestClient(app)\n@pytest.fixture\ndef auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "peekOfCode": "def client():\n    return TestClient(app)\n@pytest.fixture\ndef auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}\n@pytest.fixture\ndef driver_id(client):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",",
         "detail": "tests.conftest",
         "documentation": {}
     },
@@ -1287,8 +1359,107 @@
         "kind": 2,
         "importPath": "tests.conftest",
         "description": "tests.conftest",
-        "peekOfCode": "def auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "peekOfCode": "def auth_headers(auth_token):\n    return {\"Authorization\": f\"Bearer {auth_token}\"}\n@pytest.fixture\ndef driver_id(client):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.\"+ str(uuid.uuid4()) + \"@example.com\",\n        \"password\": \"password123\"\n    }",
         "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "driver_id",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def driver_id(client):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.\"+ str(uuid.uuid4()) + \"@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    driver_id = driver.json()['id']\n    return driver_id",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "valid_user_data",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def valid_user_data():\n    return {\n        \"email\": \"test.auth1@example.com\",\n        \"password\": \"securepassword\"\n    }",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "test_docs",
+        "kind": 2,
+        "importPath": "tests.test_api",
+        "description": "tests.test_api",
+        "peekOfCode": "def test_docs():\n    res= client.get(\"/docs\")\n    assert res.status_code == 200\n# Ecrire test /redocs\ndef test_redoc():\n    res = client.get(\"/redoc\")\n    assert res.status_code == 200",
+        "detail": "tests.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "test_redoc",
+        "kind": 2,
+        "importPath": "tests.test_api",
+        "description": "tests.test_api",
+        "peekOfCode": "def test_redoc():\n    res = client.get(\"/redoc\")\n    assert res.status_code == 200",
+        "detail": "tests.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "tests.test_api",
+        "description": "tests.test_api",
+        "peekOfCode": "client =  TestClient(app)\ndef test_docs():\n    res= client.get(\"/docs\")\n    assert res.status_code == 200\n# Ecrire test /redocs\ndef test_redoc():\n    res = client.get(\"/redoc\")\n    assert res.status_code == 200",
+        "detail": "tests.test_api",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_an_account",
+        "kind": 2,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "def test_create_an_account(valid_user_data, cleanup):\n    response = client.post(\"/api/auth/signup\", json=valid_user_data)\n    assert response.status_code == 201\n    assert \"message\" in response.json()\ndef test_create_an_account_duplicate_email(valid_user_data, cleanup):\n    # Create a user with the same email to simulate a duplicate email error\n    response = client.post(\"/api/auth/signup\", json=valid_user_data)\n    assert response.status_code == 409\n    assert \"detail\" in response.json()\ndef test_create_swagger_token(valid_user_data, cleanup):",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_an_account_duplicate_email",
+        "kind": 2,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "def test_create_an_account_duplicate_email(valid_user_data, cleanup):\n    # Create a user with the same email to simulate a duplicate email error\n    response = client.post(\"/api/auth/signup\", json=valid_user_data)\n    assert response.status_code == 409\n    assert \"detail\" in response.json()\ndef test_create_swagger_token(valid_user_data, cleanup):\n    response = client.post(\"/api/auth/login\", data={\"username\": valid_user_data[\"email\"], \"password\": valid_user_data[\"password\"]})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\n    assert \"token_type\" in response.json()",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_swagger_token",
+        "kind": 2,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "def test_create_swagger_token(valid_user_data, cleanup):\n    response = client.post(\"/api/auth/login\", data={\"username\": valid_user_data[\"email\"], \"password\": valid_user_data[\"password\"]})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\n    assert \"token_type\" in response.json()\ndef test_create_swagger_token_invalid_credentials():\n    # Test with invalid credentials\n    response = client.post(\"/api/auth/login\", data={\"username\": \"invalid@example.com\", \"password\": \"invalidpassword\"})\n    assert response.status_code == 401\ndef test_secure_endpoint(auth_token, cleanup):",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_swagger_token_invalid_credentials",
+        "kind": 2,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "def test_create_swagger_token_invalid_credentials():\n    # Test with invalid credentials\n    response = client.post(\"/api/auth/login\", data={\"username\": \"invalid@example.com\", \"password\": \"invalidpassword\"})\n    assert response.status_code == 401\ndef test_secure_endpoint(auth_token, cleanup):\n    response = client.get(\"/api/auth/me\", headers={\"Authorization\": f\"Bearer {auth_token}\"})\n    assert response.status_code == 200\n    assert \"idToken\" in response.json()",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_secure_endpoint",
+        "kind": 2,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "def test_secure_endpoint(auth_token, cleanup):\n    response = client.get(\"/api/auth/me\", headers={\"Authorization\": f\"Bearer {auth_token}\"})\n    assert response.status_code == 200\n    assert \"idToken\" in response.json()",
+        "detail": "tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "tests.test_auth",
+        "description": "tests.test_auth",
+        "peekOfCode": "client =  TestClient(app)\ndef test_create_an_account(valid_user_data, cleanup):\n    response = client.post(\"/api/auth/signup\", json=valid_user_data)\n    assert response.status_code == 201\n    assert \"message\" in response.json()\ndef test_create_an_account_duplicate_email(valid_user_data, cleanup):\n    # Create a user with the same email to simulate a duplicate email error\n    response = client.post(\"/api/auth/signup\", json=valid_user_data)\n    assert response.status_code == 409\n    assert \"detail\" in response.json()",
+        "detail": "tests.test_auth",
         "documentation": {}
     },
     {
@@ -1324,6 +1495,33 @@
         "importPath": "tests.test_driver_router",
         "description": "tests.test_driver_router",
         "peekOfCode": "def test_update_driver(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.update@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    auth_token = authSession.sign_in_with_email_and_password(email=driver_data['email'], password=driver_data['password'])['idToken']\n    auth_headers= {\"Authorization\": f\"Bearer {auth_token}\"}",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_driver_whithoutauthentication",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_update_driver_whithoutauthentication(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.updatewhitout@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    driver_id = driver.json()['id']\n    modified_driver_data = {",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_driver",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_delete_driver(client, auth_headers, driver_id):\n    response = client.delete(f\"/api/driver/{driver_id}\", headers=auth_headers)\n    assert response.status_code == 204\ndef test_delete_driver_none_auth(driver_id):\n    response = client.delete(f\"/api/driver/{driver_id}\")\n    assert response.status_code == 401",
+        "detail": "tests.test_driver_router",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_driver_none_auth",
+        "kind": 2,
+        "importPath": "tests.test_driver_router",
+        "description": "tests.test_driver_router",
+        "peekOfCode": "def test_delete_driver_none_auth(driver_id):\n    response = client.delete(f\"/api/driver/{driver_id}\")\n    assert response.status_code == 401",
         "detail": "tests.test_driver_router",
         "documentation": {}
     },

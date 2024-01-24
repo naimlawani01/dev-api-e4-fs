@@ -3,10 +3,11 @@ from firebase_admin import auth
 from fastapi.testclient import TestClient
 from main import app
 from database.firebase import authSession
+import uuid
 
 @pytest.fixture
 def auth_token():
-    email = "test.auth@gmail.com"
+    email = "test.auth"+ str(uuid.uuid4()) + "@gmail.com"
     password = "password123"
     user = auth.create_user(
         email=email,
@@ -31,3 +32,24 @@ def client():
 @pytest.fixture
 def auth_headers(auth_token):
     return {"Authorization": f"Bearer {auth_token}"}
+
+
+@pytest.fixture
+def driver_id(client):
+    driver_data = {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "test."+ str(uuid.uuid4()) + "@example.com",
+        "password": "password123"
+    }
+    driver = client.post("/api/driver", json=driver_data)
+    
+    driver_id = driver.json()['id']
+    return driver_id
+
+@pytest.fixture
+def valid_user_data():
+    return {
+        "email": "test.auth1@example.com",
+        "password": "securepassword"
+    }

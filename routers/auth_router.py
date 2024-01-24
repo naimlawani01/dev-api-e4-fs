@@ -37,14 +37,14 @@ async def create_swagger_token(user_credentials:OAuth2PasswordRequestForm = Depe
         user = authSession.sign_in_with_email_and_password(email=user_credentials.username, 
                                                            password = user_credentials.password)
         token = user['idToken']
-        print(token)
+        # print(token)
         return {
             "access_token" : token,
             "token_type": "bearer"
         }
     except:
         raise HTTPException(
-            status_code=401, details="Invalid Credentials"
+            status_code=401, detail="Invalid Credentials"
         )
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/auth/login")
 def get_current_user(provided_token: str = Depends(oauth2_scheme)):
