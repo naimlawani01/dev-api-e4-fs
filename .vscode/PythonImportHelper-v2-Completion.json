@@ -1467,7 +1467,7 @@
         "kind": 2,
         "importPath": "tests.test_driver_router",
         "description": "tests.test_driver_router",
-        "peekOfCode": "def test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",\n        \"password\": \"password123\"",
+        "peekOfCode": "def test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup, driver_id):\n    response = client.get(f\"/api/driver/{driver_id}\")\n    assert response.status_code == 200\ndef test_create_driver(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",",
         "detail": "tests.test_driver_router",
         "documentation": {}
     },
@@ -1476,7 +1476,7 @@
         "kind": 2,
         "importPath": "tests.test_driver_router",
         "description": "tests.test_driver_router",
-        "peekOfCode": "def test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    print(driver)\n    driver_id = driver.json()['id']",
+        "peekOfCode": "def test_get_driver_by_id(client, cleanup, driver_id):\n    response = client.get(f\"/api/driver/{driver_id}\")\n    assert response.status_code == 200\ndef test_create_driver(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.create@example.com\",\n        \"password\": \"password123\"\n    }",
         "detail": "tests.test_driver_router",
         "documentation": {}
     },
@@ -1503,7 +1503,7 @@
         "kind": 2,
         "importPath": "tests.test_driver_router",
         "description": "tests.test_driver_router",
-        "peekOfCode": "def test_update_driver_whithoutauthentication(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.updatewhitout@example.com\",\n        \"password\": \"password123\"\n    }\n    driver = client.post(\"/api/driver\", json=driver_data)\n    driver_id = driver.json()['id']\n    modified_driver_data = {",
+        "peekOfCode": "def test_update_driver_whithoutauthentication(client, cleanup, driver_id):\n    modified_driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"phone_number\": \"1234567890\",\n        \"email\": \"test.update@example.com\",\n        \"profile_picture\": \"path/to/profile_picture.jpg\",\n        \"average_rating\": 4.5,\n        \"current_location\": \"Paris\",\n        \"password\": \"securepassword123\"",
         "detail": "tests.test_driver_router",
         "documentation": {}
     },
@@ -1530,7 +1530,7 @@
         "kind": 5,
         "importPath": "tests.test_driver_router",
         "description": "tests.test_driver_router",
-        "peekOfCode": "client =  TestClient(app)\ndef test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup):\n    driver_data = {\n        \"first_name\": \"John\",\n        \"last_name\": \"Doe\",\n        \"email\": \"test.byid@example.com\",",
+        "peekOfCode": "client =  TestClient(app)\ndef test_get_drivers( client):\n    response = client.get(\"/api/driver\")\n    print(response)\n    assert response.status_code == 200\ndef test_get_driver_by_id(client, cleanup, driver_id):\n    response = client.get(f\"/api/driver/{driver_id}\")\n    assert response.status_code == 200\ndef test_create_driver(client, cleanup):\n    driver_data = {",
         "detail": "tests.test_driver_router",
         "documentation": {}
     },

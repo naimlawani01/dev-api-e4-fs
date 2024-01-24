@@ -13,16 +13,7 @@ def test_get_drivers( client):
     print(response)
     assert response.status_code == 200
 
-def test_get_driver_by_id(client, cleanup):
-    driver_data = {
-        "first_name": "John",
-        "last_name": "Doe",
-        "email": "test.byid@example.com",
-        "password": "password123"
-    }
-    driver = client.post("/api/driver", json=driver_data)
-    print(driver)
-    driver_id = driver.json()['id']
+def test_get_driver_by_id(client, cleanup, driver_id):
     
     
     response = client.get(f"/api/driver/{driver_id}")
@@ -70,18 +61,7 @@ def test_update_driver(client, cleanup):
     print(response)
     assert response.status_code == 204
 
-def test_update_driver_whithoutauthentication(client, cleanup):
-    
-
-    driver_data = {
-        "first_name": "John",
-        "last_name": "Doe",
-        "email": "test.updatewhitout@example.com",
-        "password": "password123"
-    }
-    driver = client.post("/api/driver", json=driver_data)
-    
-    driver_id = driver.json()['id']
+def test_update_driver_whithoutauthentication(client, cleanup, driver_id):
     
     modified_driver_data = {
         "first_name": "John",
